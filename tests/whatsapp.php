@@ -19,7 +19,7 @@ function fgets_u($pStdn)
 $nickname = "Jule";
 $sender = 	"01606360499"; // Mobile number with country code (but without + or 00)
 $imei = 	"68:A8:6D:7C:04:93"; // MAC Address for iOS IMEI for other platform (Android/etc)
-$password =     ""; // Password you received from WhatsApp
+$password =     "68:A8:6D:7C:04:93"; // Password you received from WhatsApp
 
 if ($argc < 2) {
     echo "USAGE: ".$_SERVER['argv'][0]." [-l] [-s <phone> <message>] [-i <phone>] [-set <status>]\n";
