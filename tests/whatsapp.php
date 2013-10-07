@@ -16,9 +16,9 @@ function fgets_u($pStdn)
     return null;
 }
 
-$nickname = "WhatsAPI Test";
-$sender = 	""; // Mobile number with country code (but without + or 00)
-$imei = 	""; // MAC Address for iOS IMEI for other platform (Android/etc)
+$nickname = "Jule";
+$sender = 	"01606360499"; // Mobile number with country code (but without + or 00)
+$imei = 	"68:A8:6D:7C:04:93"; // MAC Address for iOS IMEI for other platform (Android/etc)
 $password =     ""; // Password you received from WhatsApp
 
 if ($argc < 2) {
